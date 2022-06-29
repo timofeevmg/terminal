@@ -1,0 +1,78 @@
+@font-face {
+  font-weight: 400;
+  font-family: "JetBrains Mono";
+  src: url("../assets/fonts/JetBrainsMono-Regular.woff2") format("woff2");
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+
+  background: #7e57c2;
+}
+
+/* BEGIN (write your solution here) */
+.terminal {
+  padding: 20px 30px;
+
+  color: #fff;
+
+  background-color: #263238;
+
+  border-radius: 5px;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+button {
+  border: 0;
+  padding: 0;
+
+  padding-right: 5px;
+
+  width: 11px;
+  height: 11px;
+
+  border-radius: 50%;
+}
+
+.button1 {
+  background-color: #ff5f56;
+}
+
+.button2 {
+  background-color: #ffbd2e;
+}
+
+.button3 {
+  background-color: #27c93f;
+}
+
+pre {
+  margin: 0;
+}
+
+code {
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: "JetBrains Mono", monospace;
+}
+
+span.tag {
+  color: #ff5370;
+}
+
+span.attr {
+  color: #ffcb6b;
+}
+
+span.value {
+  color: #c3e88d;
+}
+
+/* END */
